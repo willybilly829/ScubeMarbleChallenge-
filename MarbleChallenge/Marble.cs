@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace MarbleChallenge
 {
 
-    class Marble
+    public class Marble
     {
         public int Id { get; set; }
         public string Name { get; set; }
