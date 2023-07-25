@@ -75,7 +75,7 @@ while (command != "exit")
             new Marble() {Id = 2, Color = "red", Weight = 0.4, Name = "greg"},
             new Marble() {Id = 3, Color = "violet", Weight = 0.6, Name = "sam"},
         };
-
+         
         foreach (Marble marble in marbleList)
         {
             Console.WriteLine(marble);
